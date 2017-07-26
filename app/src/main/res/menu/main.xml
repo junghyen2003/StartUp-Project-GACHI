@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_action_settings"
+        android:orderInCategory="100"
+        android:title="업데이트 시간"
+        app:showAsAction="never">
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/main_user_update"
+                android:title="수동 업데이트"
+                android:checked="true">
+            </item>
+            <item
+                android:id="@+id/main_five_sec_update"
+                android:title="5초" >
+            </item>
+            <item
+                android:id="@+id/main_fifteen_sec_update"
+                android:title="15초" >
+            </item>
+            <item
+                android:id="@+id/main_thirty_sec_update"
+                android:title="30초" >
+            </item>
+            <item
+                android:id="@+id/main_sixty_sec_update"
+                android:title="60초">
+            </item>
+        </group>
+
+    </item>
+</menu>

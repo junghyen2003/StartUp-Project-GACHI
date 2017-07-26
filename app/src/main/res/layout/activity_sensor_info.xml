@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sensor_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.junghyen.prototype1start_up.SensorInfoActivity"
+    android:gravity="top|center">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout14">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gach_ping_icon"
+            android:id="@+id/imageView6"
+            android:layout_alignBottom="@+id/sensor_info_nickname_textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_info_nickname_textView"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/sensor_info_refresh_imageView"
+            android:layout_toStartOf="@+id/sensor_info_refresh_imageView"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout13"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fafafa">
+
+            <ImageView
+                app:srcCompat="@drawable/icon_in"
+                android:id="@+id/imageView4"
+                android:layout_height="30dp"
+                android:layout_width="55dp" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="18dp"
+                app:srcCompat="@drawable/icon_clock"
+                android:id="@+id/imageView7"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_height="match_parent"
+                android:id="@+id/sensor_info_recent_inTime_textView"
+                android:gravity="center"
+                android:layout_weight="2.5"
+                android:layout_width="80dp" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="18dp"
+                app:srcCompat="@drawable/icon_man"
+                android:id="@+id/imageView8"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/sensor_info_inPerson_textView"
+                android:gravity="right|center"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:text="명"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView16"
+                android:layout_weight="0.12"
+                android:gravity="left|center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fafafa">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/icon_out"
+                android:id="@+id/imageView5" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="18dp"
+                app:srcCompat="@drawable/icon_clock"
+                android:id="@+id/imageView9"
+                android:layout_weight="0"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:id="@+id/sensor_info_recent_outTime_textView"
+                android:gravity="center"
+                android:layout_weight="2.5" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="18dp"
+                app:srcCompat="@drawable/icon_man"
+                android:id="@+id/imageView10"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:id="@+id/sensor_info_outPerson_textView"
+                android:gravity="right|center"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:text="명"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textView18"
+                android:layout_weight="0.12"
+                android:gravity="left|center" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout15"
+        android:layout_below="@+id/linearLayout13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text_style">
+
+            <TextView
+                android:text="입실/퇴실"
+                android:layout_height="match_parent"
+                android:id="@+id/textView19"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="30dp"
+                android:textSize="15sp"
+                android:background="@drawable/image_view_background_style" />
+
+            <TextView
+                android:text="시간"
+                android:layout_height="match_parent"
+                android:id="@+id/textView20"
+                android:layout_weight="2.53"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:background="@drawable/image_view_background_style"
+                android:layout_width="80dp" />
+
+            <TextView
+                android:text="입실 누적"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView21"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:background="@drawable/image_view_background_style" />
+
+            <TextView
+                android:text="퇴실누적"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView22"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:background="@drawable/image_view_background_style" />
+
+            <TextView
+                android:text="현 인원"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView23"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:background="@drawable/image_view_background_style" />
+        </LinearLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sensor_info_mSwipeRefreshLayout">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:id="@+id/sensor_info_listView"
+                android:dividerHeight="0px"
+                android:divider="#ffffff"
+                android:layout_height="50dp"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/relativeLayout2"
+        android:layout_height="200dp"
+        android:layout_below="@+id/linearLayout14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/bg_center_circle"
+            android:id="@+id/sensor_info_imageView"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/rx_battery_textView"
+            android:layout_alignStart="@+id/rx_battery_textView" />
+
+        <TextView
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sensor_info_left_person_textView"
+            android:textSize="80sp"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="명"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_alignBaseline="@+id/sensor_info_left_person_textView"
+            android:layout_alignBottom="@+id/sensor_info_left_person_textView"
+            android:layout_toRightOf="@+id/sensor_info_left_person_textView"
+            android:layout_toEndOf="@+id/sensor_info_left_person_textView" />
+
+        <ImageView
+            android:id="@+id/rx_battery_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/sensor_info_left_person_textView"
+            app:srcCompat="@drawable/battery_error" />
+
+        <ImageView
+            android:id="@+id/tx_battery_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/rx_battery_imageView"
+            app:srcCompat="@drawable/battery_error" />
+
+        <TextView
+            android:id="@+id/tx_battery_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tx_battery_imageView"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="TX"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/rx_battery_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rx_battery_imageView"
+            android:layout_alignEnd="@+id/rx_battery_imageView"
+            android:layout_alignRight="@+id/rx_battery_imageView"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="RX"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/sensor_info_button"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:text="통계 보기"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/linearLayout13"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

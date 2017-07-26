@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">GACHI</string>
+    <string name="title_activity_main">장치 목록</string>
+    <string name="title_add_sensor">장치 추가</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_trash">Trash</string>
+
+    <string name="policy">
+        제 1조(목적)\n
+        이 약관은 나무플러스(이하"회사"라 함)가 각종\n
+        멤버십 회원(이하"회원"이라 함)에게 제공하는 서비스의 내용과
+        당사자의 권리의무 및 책임사항을 규정하는 것을 목적으로 합니다.\n\n
+
+        제 2조(용어의 정의)\n
+        이 약관에서 사용하는 용어의 정의는 다음 각 호와 같습니다.\n
+        1. "멤버십"이란 회사가 다른 회사와의 제휴 및 가맹 등을 통해\n
+    </string>
+
+    <string-array name="year">
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+</resources>

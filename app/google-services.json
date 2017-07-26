@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "260062090535",
+    "firebase_url": "https://gachi-14b1a.firebaseio.com",
+    "project_id": "gachi-14b1a",
+    "storage_bucket": "gachi-14b1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260062090535:android:14bef8e5e3c23852",
+        "android_client_info": {
+          "package_name": "com.example.junghyen.prototype1start_up"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260062090535-qv9o55gljqs4092abv9s5mpms4jcfvin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIgAr_RPNyP6pLVB5cM5cRD6Q5A6fxh6U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
